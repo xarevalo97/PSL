@@ -29,11 +29,56 @@
             </ul>
         </li>
         <?php } ?>
+        <?php if(!empty($_SESSION['permisos'][6]['r'])){ ?>
+        <li class="treeview">
+            <a class="app-menu__item" href="#" data-toggle="treeview">
+                <i class="app-menu__icon fa fa-bank" aria-hidden="true"></i>
+                <span class="app-menu__label">Instituciones</span>
+                <i class="treeview-indicator fa fa-angle-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li><a class="treeview-item" href="<?= base_url(); ?>/añadir"><i class="icon fa fa-plus"></i>Añadir Institucion</a></li>
+                <li><a class="treeview-item" href="<?= base_url(); ?>/instituciones"><i class="icon fa fa-bank"></i> Institucion</a></li>
+            </ul>
+        </li>
+        <?php } ?>
+        <?php if(!empty($_SESSION['permisos'][6]['r'])){ ?>
+        <li>
+            <a class="app-menu__item" href="<?= base_url(); ?>/gestiones">
+                <i class="app-menu__icon fa fa-list" aria-hidden="true"></i>
+                <span class="app-menu__label">Gestiones</span>
+            </a>
+        </li>
+        <?php } ?>
         <?php if(!empty($_SESSION['permisos'][3]['r'])){ ?>
         <li>
             <a class="app-menu__item" href="<?= base_url(); ?>/clientes">
                 <i class="app-menu__icon fa fa-user" aria-hidden="true"></i>
                 <span class="app-menu__label">Clientes</span>
+            </a>
+        </li>
+        <?php } ?>
+        <?php if(!empty($_SESSION['permisos'][3]['r'])){ ?>
+        <li>
+            <a class="app-menu__item" href="<?= base_url(); ?>/creditos">
+                <i class="app-menu__icon fa fa-money-bill" aria-hidden="true"></i>
+                <span class="app-menu__label">Creditos</span>
+            </a>
+        </li>
+        <?php } ?>
+        <?php if(!empty($_SESSION['permisos'][3]['r'])){ ?>
+        <li>
+            <a class="app-menu__item" href="<?= base_url(); ?>/tarjetas">
+                <i class="app-menu__icon fa fa-credit-card" aria-hidden="true"></i>
+                <span class="app-menu__label">Tarjeta de Credito</span>
+            </a>
+        </li>
+        <?php } ?>
+        <?php if(!empty($_SESSION['permisos'][3]['r'])){ ?>
+        <li>
+            <a class="app-menu__item" href="<?= base_url(); ?>/ayuda">
+                <i class="app-menu__icon fa fa-info" aria-hidden="true"></i>
+                <span class="app-menu__label">Ayuda</span>
             </a>
         </li>
         <?php } ?>
@@ -54,3 +99,6 @@
         </li>
       </ul>
     </aside>
+    <?php
+
+?>

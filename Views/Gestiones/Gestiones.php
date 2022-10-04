@@ -1,6 +1,6 @@
 <?php 
     headerAdmin($data); 
-    getModal('modalClientes',$data);
+    getModal('modalGestiones',$data);
 ?>
   <main class="app-content">    
       <div class="app-title">
@@ -25,10 +25,16 @@
                       <thead>
                         <tr>
                           <th>ID</th>
-                          <th>Identificación</th>
+                          <th>Dui</th>
                           <th>Nombres</th>
                           <th>Apellidos</th>
-                          <th>Email</th>
+                          <th>Direccion</th>
+                          <th>Deuda</th>
+                          <th>Correo</th>
+                          <th>Trabajo</th>
+                          <th>Mora</th>
+                          <th>Calificacion</th>
+                          <th>Acuerdo</th>
                           <th>Teléfono</th>
                           <th>Acciones</th>
                         </tr>
@@ -43,3 +49,4 @@
         </div>
     </main>
 <?php footerAdmin($data); ?>
+    

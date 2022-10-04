@@ -25,11 +25,12 @@
                       <thead>
                         <tr>
                           <th>ID</th>
-                          <th>Identificación</th>
-                          <th>Nombres</th>
-                          <th>Apellidos</th>
-                          <th>Email</th>
-                          <th>Teléfono</th>
+                          <th>Codido de la Cuenta</th>
+                          <th>Cliente</th>
+                          <th>Deuda</th>
+                          <th>Gestion del Cliente</th>
+                          <th>Calificacion</th>
+                          <th>Fiador</th>
                           <th>Acciones</th>
                         </tr>
                       </thead>
@@ -43,3 +44,4 @@
         </div>
     </main>
 <?php footerAdmin($data); ?>
+    
