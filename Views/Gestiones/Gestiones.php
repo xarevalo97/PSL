@@ -25,18 +25,21 @@
                       <thead>
                         <tr>
                           <th>ID</th>
-                          <th>Dui</th>
-                          <th>Nombres</th>
-                          <th>Apellidos</th>
-                          <th>Direccion</th>
-                          <th>Deuda</th>
-                          <th>Correo</th>
-                          <th>Trabajo</th>
-                          <th>Mora</th>
-                          <th>Calificacion</th>
-                          <th>Acuerdo</th>
-                          <th>Teléfono</th>
-                          <th>Acciones</th>
+                          <th>Nombre</th>
+                          <th>Departamento</th>
+                          <th>Municipio</th>
+                          <th>Canton</th>
+                          <th>Direccion Principal</th>
+                          <th>Direccion Secundaria</th>
+                          <th>Telefono</th>
+                          <th>Garantia</th>
+                          <th>Fecha Prox.Pago</th>
+                          <th>Saldo en mora</th>
+                          <th>Estado</th>
+                          <th>Ultimo Pago</th>
+                          <th>Total Deuda</th>
+                          <th>Fecha de Promesa</th>
+                          <th>Observacion</th>
                         </tr>
                       </thead>
                       <tbody>
